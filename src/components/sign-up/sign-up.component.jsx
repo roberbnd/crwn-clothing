@@ -28,7 +28,7 @@ class SignUp extends Component {
     }
 
     try {
-      const { user } = await auth.creaUserWithEmailAndPassword(email, password)
+      const { user } = await auth.createUserWithEmailAndPassword(email, password)
 
       createUserProfilDocument(user, { displayName })
 
