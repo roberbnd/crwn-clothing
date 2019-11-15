@@ -3,12 +3,12 @@
   width: 240px;
   height: 340px;
   display: flex;
-  flex-direction: columns;
+  flex-direction: column;
   padding: 20px;
   border: 1px solid #000;
   background: #fff;
-  top: 80px;
-  right: 0;
+  top: 90px;
+  right: 40px;
   z-index: 5;
 
   .cart-items {
